@@ -1,0 +1,149 @@
+﻿namespace Banco
+{
+    partial class FormRelatorios
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.listaResultado = new System.Windows.Forms.ListBox();
+            this.botaoFiltroSaldo = new System.Windows.Forms.Button();
+            this.buttonAntigas = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.labelSaldoTotal = new System.Windows.Forms.Label();
+            this.labelMaiorSaldo = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // listaResultado
+            // 
+            this.listaResultado.FormattingEnabled = true;
+            this.listaResultado.Location = new System.Drawing.Point(85, 12);
+            this.listaResultado.Name = "listaResultado";
+            this.listaResultado.Size = new System.Drawing.Size(120, 95);
+            this.listaResultado.TabIndex = 0;
+            this.listaResultado.SelectedIndexChanged += new System.EventHandler(this.listaResultado_SelectedIndexChanged);
+            // 
+            // botaoFiltroSaldo
+            // 
+            this.botaoFiltroSaldo.Location = new System.Drawing.Point(12, 217);
+            this.botaoFiltroSaldo.Name = "botaoFiltroSaldo";
+            this.botaoFiltroSaldo.Size = new System.Drawing.Size(120, 23);
+            this.botaoFiltroSaldo.TabIndex = 1;
+            this.botaoFiltroSaldo.Text = "Saldo maior que 500";
+            this.botaoFiltroSaldo.UseVisualStyleBackColor = true;
+            this.botaoFiltroSaldo.Click += new System.EventHandler(this.botaoFiltroSaldo_Click);
+            // 
+            // buttonAntigas
+            // 
+            this.buttonAntigas.Location = new System.Drawing.Point(152, 217);
+            this.buttonAntigas.Name = "buttonAntigas";
+            this.buttonAntigas.Size = new System.Drawing.Size(120, 23);
+            this.buttonAntigas.TabIndex = 2;
+            this.buttonAntigas.Text = "Antigas";
+            this.buttonAntigas.UseVisualStyleBackColor = true;
+            this.buttonAntigas.Click += new System.EventHandler(this.buttonAntigas_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.labelMaiorSaldo);
+            this.groupBox1.Controls.Add(this.labelSaldoTotal);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(50, 119);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(180, 75);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Resumo";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Saldo Total";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(10, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Maior Saldo";
+            // 
+            // labelSaldoTotal
+            // 
+            this.labelSaldoTotal.AutoSize = true;
+            this.labelSaldoTotal.Location = new System.Drawing.Point(84, 20);
+            this.labelSaldoTotal.Name = "labelSaldoTotal";
+            this.labelSaldoTotal.Size = new System.Drawing.Size(80, 13);
+            this.labelSaldoTotal.TabIndex = 2;
+            this.labelSaldoTotal.Text = "labelSaldoTotal";
+            // 
+            // labelMaiorSaldo
+            // 
+            this.labelMaiorSaldo.AutoSize = true;
+            this.labelMaiorSaldo.Location = new System.Drawing.Point(84, 56);
+            this.labelMaiorSaldo.Name = "labelMaiorSaldo";
+            this.labelMaiorSaldo.Size = new System.Drawing.Size(82, 13);
+            this.labelMaiorSaldo.TabIndex = 3;
+            this.labelMaiorSaldo.Text = "labelMaiorSaldo";
+            // 
+            // FormRelatorios
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.buttonAntigas);
+            this.Controls.Add(this.botaoFiltroSaldo);
+            this.Controls.Add(this.listaResultado);
+            this.Name = "FormRelatorios";
+            this.Text = "FormRelatorios";
+            this.Load += new System.EventHandler(this.FormRelatorios_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ListBox listaResultado;
+        private System.Windows.Forms.Button botaoFiltroSaldo;
+        private System.Windows.Forms.Button buttonAntigas;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label labelMaiorSaldo;
+        private System.Windows.Forms.Label labelSaldoTotal;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+    }
+}

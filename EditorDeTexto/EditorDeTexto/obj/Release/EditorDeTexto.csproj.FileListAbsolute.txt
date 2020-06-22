@@ -1,0 +1,8 @@
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\bin\Release\EditorDeTexto.exe.config
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\bin\Release\EditorDeTexto.exe
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\bin\Release\EditorDeTexto.pdb
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\obj\Release\EditorDeTexto.Form1.resources
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\obj\Release\EditorDeTexto.Properties.Resources.resources
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\obj\Release\EditorDeTexto.csproj.GenerateResource.Cache
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\obj\Release\EditorDeTexto.exe
+c:\users\csharp7532\documents\visual studio 2017\Projects\EditorDeTexto\EditorDeTexto\obj\Release\EditorDeTexto.pdb

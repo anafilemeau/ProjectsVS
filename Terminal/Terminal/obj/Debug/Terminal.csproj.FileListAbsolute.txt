@@ -1,0 +1,6 @@
+c:\users\aninh\documents\visual studio 2015\Projects\Terminal\Terminal\bin\Debug\Terminal.exe.config
+c:\users\aninh\documents\visual studio 2015\Projects\Terminal\Terminal\obj\Debug\Terminal.csprojResolveAssemblyReference.cache
+c:\users\aninh\documents\visual studio 2015\Projects\Terminal\Terminal\bin\Debug\Terminal.exe
+c:\users\aninh\documents\visual studio 2015\Projects\Terminal\Terminal\bin\Debug\Terminal.pdb
+c:\users\aninh\documents\visual studio 2015\Projects\Terminal\Terminal\obj\Debug\Terminal.exe
+c:\users\aninh\documents\visual studio 2015\Projects\Terminal\Terminal\obj\Debug\Terminal.pdb
